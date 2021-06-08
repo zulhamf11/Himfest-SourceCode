@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* custom css */
+body {
+    font-family: "Lato", "Open Sans", sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: #ff9b00;
+}
+
+h2,
+h3 {
+    color: #1c1259;
+}
+
+h4,
+a:not(.action-button):hover {
+    color: #ee4266;
+}
